@@ -222,8 +222,8 @@ p {
 .section3 {
   width: 100%;
   text-align: center;
-  background-color: #ffffff;
   height: 732px;
+  background-color: #F4F4FD;
 }
 
 .section3-main {
@@ -298,14 +298,19 @@ p {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
 }
-
+.section4-item img{
+  display:block;
+}
 .section4-text {
   text-align: left;
   padding-top: 32px;
   padding-right: 16px;
   padding-bottom: 20px;
   padding-left: 16px;
-  border: 1px solid #ffffff;
+  border-top:none;
+  border-left: 1px solid #E7E9FC;
+  border-right: 1px solid #E7E9FC;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .footer {
